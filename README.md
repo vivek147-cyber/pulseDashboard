@@ -4,6 +4,8 @@ A responsive Flutter web dashboard visualizing real-time IoT sensor data using a
 
 ---
 
+🌐 Live Flutter Project: https://pulsedashboard-0765-4pesa8h-vivek147-cyber.globeapp.dev/
+
 ## 🚀 Getting Started
 
 ### ✅ Prerequisites
