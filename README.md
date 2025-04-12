@@ -16,31 +16,19 @@ A responsive Flutter web dashboard visualizing real-time IoT sensor data using a
 flutter config --enable-web
 📦 Install Dependencies
 From the root directory, run:
-
-bash
-Copy
-Edit
 flutter pub get
+
 ▶️ Run the Project
 To run in the Chrome browser:
-
-bash
-Copy
-Edit
 flutter run -d chrome
+
+
 🧪 Running Tests
 To execute all unit and widget tests:
-
-bash
-Copy
-Edit
 flutter test
 Test files should be placed inside the /test folder and follow the naming convention *_test.dart.
 
 📁 Folder Structure
-bash
-Copy
-Edit
 lib/
 ├── application/
 │   └── provider/
@@ -57,6 +45,8 @@ lib/
 │   │       └── common_dropdown.dart   # Reusable dropdown widget
 │
 ├── main.dart                          # Application entry point
+
+
 🎨 Design Decisions
 Riverpod is used for state management due to its simplicity, testability, and modular design.
 
@@ -77,6 +67,7 @@ Color	Description
 🔴 Red	Severe anomaly
 ⚪ Grey	Offline sensor
 ❓ Question Mark	Missing data
+
 🛠 Features
 Toggle X-Axis type: Time or Location
 
